@@ -13,7 +13,7 @@
     padding: 10px;
     background-color: white;
     box-shadow: 1px 1px 6px #bbbbbb;
-    text-align: center;
+/*    text-align: center;*/
     position: absolute;
     width: 270px;
 }
@@ -109,22 +109,17 @@ body {
 }
 
 .featuredSlider {
-/*    overflow: scroll;*/
+    overflow: scroll;
 }
 
 .featuredSlider_inner {
-/*    display: inline-flex;*/
-/*    display: inline-grid;*/
-/*    display: inline-block;*/
     display: inline-flex;
-    flex-wrap: wrap;
 /*    width: 1000px;*/
 }
 
 .featuredBlock {
 /*    background-color: grey;*/
-/*    width: 100px;*/
-    width: 48%;
+    width: 100px;
     margin: 4px;
 }
 
